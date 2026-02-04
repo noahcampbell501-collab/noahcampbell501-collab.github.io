@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="author" content="Noah Campbell">
+<title>Park Equestrian Center</title>
+</head>
+
+<body>
+<h2 style="text-align: right;">Park Equestrian Center</h2>
+<hr>
+<p style="text-align: right;">
+How to get there? Go east on 16th Street past Chesnut Hall.</p>
+<p style="text-align: right;"> is it open? August-November, March-May, Mon-Fri noon-dusk</p>
+<p style="text-align: right;">Questions? Call Jasur "Dusty" Rakhimov at 816-584-7669.</p>
+<h3>Address</h3>
+<div>Park University</div>
+<div>Equestrian Center, box 242</div>
+<div>8700 N.W. River Park Drive</div>
+<div>Parkville,MO 64152</div>
+</body>
+</html>

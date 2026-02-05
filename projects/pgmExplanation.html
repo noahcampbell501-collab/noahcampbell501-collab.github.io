@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<style>.invisible {color: rgba(255, 255, 255, 0);}</style>
+<meta name="author" content="Noah Campbell">
+<title>This is a website</title>
+</head>
+
+<body>
+<h2><span class="highlight">Cyberbot Code</span></h2>
+<pre>
+while True:
+    whisker_left = bot(7).read_digital()
+    whisker_right = bot(9).read_digital()
+    
+    if whisker_left == 0 and whisker_right == 0:     
+        backwards()                                 
+        charge()
+    elif whisker_left == 1 and whisker_right == 0:   
+        backwards()                                  
+        right()
+    elif whisker_left == 0 and whisker_right == 1:  
+        backwards()
+        left()
+    else:                                           
+        charge()
+</pre>
+<p>
+This is a code that orders a robot to move away from objects that it <mark>collides</mark> with.
+When the whiskers read that they have touched an object, then the robot moves backwards slightly, 
+and before turning away from the object that it hit. I call it the <strong>Whack and repeat protocol</strong>, or the <acronym title="Whack and Repeat protocol"><Strong>WARP</Strong></acronym>. </p> 
+<p>
+As book about a wise llama once said, <blockquote><em>No touchy! No touch.</em></blockquote></p>
+<cite>The Emperor's New Groove, 2000</cite>
+
+<div class="invisible">John Cena</div>
+<p>This sentense has <dfn>autism</dfn></p>
+<p><bdo dir="rtl">This sentense has ADHD</bdo></p>
+
+
+</body>
+</html>

@@ -41,8 +41,10 @@ grid-template-areas:
 header.mobile {grid-area: header;}
 footer.mobile {grid-area: footer;}
 header.mid {display: none;}
+footer.mid {display: none;}
 header.non-mobile {display: none;}
 footer.non-mobile {display: none;}
+aside {display: none;}
 nav > ul {
 flex-direction: row;
 flex-wrap: nowrap;
@@ -52,7 +54,7 @@ padding: 0;
 }
 nav > ul > li {padding: 0 6px; }
 }
-/* for non-mobile devices */
+/* for mid devices */
 @media (min-width: 481px) and (max-width: 768px) {
 .grid {
 display: grid;
@@ -65,11 +67,13 @@ grid-template-areas:
 "nav main"
 "footer footer";
 }
-header.non-mobile {grid-area: header;}
-footer.non-mobile {grid-area: footer;}
+header.non-mobile {display: none;}
+footer.non-mobile {display: none;}
 header.mid {grid-area: header;}
+footer.mid {grid-area: footer;}
 header.mobile {display: none;} 
 footer.mobile {display: none;}
+aside {display: none;}
 nav > ul {
 flex-direction: column;
 flex-wrap: nowrap;
@@ -77,6 +81,7 @@ padding: 4px 0 0;
 }
 nav > ul > li {padding: 0 4px 8px;}
 }
+/* for non-mobile devices */
 @media (min-width: 769px) {
 .grid {
 display: grid;
@@ -92,6 +97,7 @@ grid-template-areas:
 header.non-mobile {grid-area: header;}
 footer.non-mobile {grid-area: footer;}
 header.mid {display: none;}
+footer.mid {display: none;}
 header.mobile {display: none;} 
 footer.mobile {display: none;}
 aside {grid-area: aside;}

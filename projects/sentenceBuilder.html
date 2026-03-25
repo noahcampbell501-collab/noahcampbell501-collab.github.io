@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang= "en"> 
+<head>
+<meta charset="utf-8">
+<meta name="author" content="Noah Campbell">
+<title>Sentense Builder</title>
+<style>
+    .sentence {
+        font-size: x-large;
+        color: blue;
+        font-family: comic, sans-serif;
+    }
+</style>
+<script>
+    // This function adds words to a sentence one at a time. 
+    function addStuff(form) {
+        var sentence; // This variable will hold the sentence as it is being built. 
+        var daBox; // This variable will hold the word that is being added to the sentence.
+        sentence = document.getElementById("sentence");  
+        daBox = form.elements["daBox"];
+        
+        document.getElementById("daBoxLabel").innerHTML = "Hahahaa! I control you now! Keep typing!!!";
+        sentence.innerHTML = sentence.innerHTML + " " + daBox.value;
+        daBox.value = "";
+        daBox.focus();
+        // End of addStuff function?
+    }
+    // This function clears the sentence and starts over.
+    function trashStuff(form) {
+        document.getElementById("daBoxLabel").innerHTML = "What? My powers! Where did they go??";
+        document.getElementById("sentence").innerHTML = "";
+        form.elements["daBox"].value = "";
+        form.elements["daBox"].focus();
+    }
+</script>
+</head>
+<body>
+<h1>Sentence Builder</h1>
+<form>
+    <span id="daBoxLabel">Type a word, peasant.</span>
+    <input type="text" id="daBox" autofocus>
+    <br>
+    <input type="button" value="Add Word" onclick="addStuff(this.form);">
+    <input type="button" value="Start Over" onclick="trashStuff(this.form);">
+</form>
+<p id="sentence"></p>
+</body>
+</html>

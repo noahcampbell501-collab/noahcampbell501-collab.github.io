@@ -18,9 +18,21 @@
   }
 </style>
 <script>
-  // Insert code for Ch 10 Case Study here
-  // Don't forget to add comments about what the function is doing and when it ends
-
+  function calc(solarForm) {
+    var table;
+    var row;
+    var monthIndex;
+    table = document.getElementById("performance");
+    row = table.insertRow(table.rows.length);
+    form = solarForm;
+    computeAngles();
+    row.insertCell(0).innerHTML = form.elements["latitude"].value;
+    row.insertCell(1).innerHTML = form.elements["panelSlope"].value;
+    row.insertCell(2).innerHTML = form.elements["ratedWatts"].value;
+    monthIndex = form.elements["months"].selectedIndex;
+    row.insertCell(3).innerHTML = document.getElementsByTagName("option")[monthIndex].innerHTML;
+    row.insertCell(4).innerHTML = findWatts();
+} //end calc
   function computeAngles() {
     // developed in case study at end of next chapter
   } // end computeAngles

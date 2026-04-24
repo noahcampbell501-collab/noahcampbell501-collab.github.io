@@ -1,6 +1,6 @@
 ﻿/* Rules for all web pages */
 body {
-  background-color: azure;
+  background-color: hex(#eac8c1);
   padding: 10px;
 }
 h1, h2 {

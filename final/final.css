@@ -1,6 +1,6 @@
 ﻿/* Rules for all web pages */
 body {
-  background-color: hex(#eac8c1);
+  background-color: rgb(234, 216, 193);
   padding: 10px;
 }
 h1, h2 {

@@ -5,7 +5,7 @@ body {
 }
 h1, h2 {
   margin: 0px;
-  background-color: lightgreen;
+  background-color: red;
   padding: 10px;
   text-align: center;
 }
@@ -27,7 +27,7 @@ nav li {
   margin: 2px 4px 2px 4px;
   background-color: lightgoldenrodyellow;
   border: outset;
-  border-color: lightgreen;
+  border-color: goldenrodyellow;
 }
 nav a {text-decoration: none;}
 

@@ -2,7 +2,8 @@
 body {
   background-color: rgb(234, 216, 193); 
   padding: 10px;
-  font-family: Garamond, Times New Roman; 
+  font-family: Garamond, Times New Roman;
+  text-align: center;
 }
 header, h1, h2 {
   margin: 0px;
@@ -14,7 +15,7 @@ header, h1, h2 {
 p {
   background-color: rgb(100,60,32); /*Background earth brown*/
   padding: 0px 20px;
-  text-align: justify;
+  margin: 40px 40px;
 }
 
 /* Rules for interpage navigation */ 

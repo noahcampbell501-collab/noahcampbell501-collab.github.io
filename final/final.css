@@ -14,7 +14,8 @@ header, h1, h2 {
 }
 p {
   background-color: rgb(100,60,32); /*Background earth brown*/
-  padding: 20px 100px 20px 100px;
+  padding: 20px 10px 20px 10px;
+  margin: 20px 100px 20px 100px;
 }
 
 /* Rules for interpage navigation */ 

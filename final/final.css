@@ -1,6 +1,6 @@
 ﻿/* Rules for all web pages */
 body {
-  background-color: rgb(234, 216, 193);
+  background-color: rgb(234, 216, 193); 
   padding: 10px;
   font-family: Garamond, Times New Roman; 
 }
@@ -12,7 +12,7 @@ header, h1, h2 {
   font-family: Georgia, Times New Roman;
 }
 p {
-  background-color: hsl(120,80%,90%); /*lighter lightgreen*/
+  background-color: rgb(100,60,32); /*Background earth brown*/
   padding: 0px 20px;
   text-align: justify;
 }
@@ -27,7 +27,7 @@ nav li {
   display: inline-block;
   padding: 0px 4px 2px 4px;
   margin: 2px 4px 2px 4px;
-  background-color: lightgoldenrodyellow;
+  background-color: lightgoldenrodyellow; /*Golden buttons*/
   border: outset;
   border-color: goldenrod;
 }

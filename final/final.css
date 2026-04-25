@@ -2,12 +2,14 @@
 body {
   background-color: rgb(234, 216, 193);
   padding: 10px;
+  font-family: Garamond, Times New Roman; 
 }
-h1, h2 {
+header, h1, h2 {
   margin: 0px;
   background-color: red;
   padding: 10px;
   text-align: center;
+  font-family: Georgia, Times New Roman;
 }
 p {
   background-color: hsl(120,80%,90%); /*lighter lightgreen*/

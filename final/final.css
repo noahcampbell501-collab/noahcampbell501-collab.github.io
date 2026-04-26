@@ -31,7 +31,9 @@ p {
   font-size: 24px;
   font-weight: bold;
 }
-
+cite {
+  font-style: italic;
+}
 /* Navigation bar style */ 
 nav ul {
   list-style-type: none;

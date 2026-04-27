@@ -1,5 +1,13 @@
 ﻿/* Rules for all web pages */
 body {
+  display: grid;
+  grid-template-area:
+    "header header"
+    "nav picture"
+    "content content"
+    "footer footer";
+  grid-template-columns: 1fr 3fr;
+  gap: 3px;
   background-color: rgb(234, 216, 193); 
   padding: 10px;
   font-family: Garamond, Times New Roman;
@@ -7,8 +15,9 @@ body {
 }
 
 /* Header style */
-header, h1, h2 {
+header {
   margin: 0px;
+  grid-area: header;
   background-color: red;
   padding: 10px;
   text-align: center;
@@ -35,6 +44,8 @@ cite {
   font-style: italic;
 }
 /* Navigation bar style */ 
+nav {grid-area: nav;}
+
 nav ul {
   list-style-type: none;
   text-align: center;
@@ -52,6 +63,21 @@ nav li {
   font-size: 24px;
 }
 nav a {text-decoration: none;}
+
+/* Images style */
+figure {
+  grid-area: picture;
+}
+
+/* Content style */
+.content {
+  grid-area: content;
+}
+
+/* Footer style */
+footer {
+  grid-area: footer;
+}
 
 /* Rule to reduce space above header in home-page with iframe */
 h2 {margin-top: -15px;}

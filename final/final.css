@@ -48,13 +48,13 @@ nav {grid-area: nav;}
 
 nav ul {
   list-style-type: none;
-  text-align: center;
+  text-align: left;
   padding-left: 0px; 
 }
 
 /* Navigation item style */
 nav li {
-  display: inline-block;
+  display: block;
   padding: 0px 4px 2px 4px;
   margin: 2px 4px 2px 4px;
   background-color: lightgoldenrodyellow; /*Golden buttons*/

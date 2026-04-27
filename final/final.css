@@ -1,13 +1,5 @@
 ﻿/* Rules for all web pages */
 body {
-  display: grid;
-  grid-template-area:
-    "header header"
-    "nav picture"
-    "content content"
-    "footer footer";
-  grid-template-columns: 1fr 3fr;
-  gap: 3px;
   background-color: rgb(234, 216, 193); 
   padding: 10px;
   font-family: Garamond, Times New Roman;
@@ -15,9 +7,8 @@ body {
 }
 
 /* Header style */
-header {
+header, h1, h2 {
   margin: 0px;
-  grid-area: header;
   background-color: red;
   padding: 10px;
   text-align: center;
@@ -36,26 +27,23 @@ header {
 p {
   background-color: rgb(200, 157, 124); /*Background earth brown*/
   padding: 20px 10px 20px 10px;
-  margin: 20px 0px 20px 0px;
+  margin: 80px 300px 80px 300px;
   font-size: 24px;
   font-weight: bold;
 }
-
 cite {
   font-style: italic;
 }
-
 /* Navigation bar style */ 
-
 nav ul {
   list-style-type: none;
-  text-align: left;
+  text-align: center;
   padding-left: 0px; 
 }
 
 /* Navigation item style */
 nav li {
-  display: block;
+  display: inline-block;
   padding: 0px 4px 2px 4px;
   margin: 2px 4px 2px 4px;
   background-color: lightgoldenrodyellow; /*Golden buttons*/
@@ -64,19 +52,6 @@ nav li {
   font-size: 24px;
 }
 nav a {text-decoration: none;}
-
-/* Images style */
-.figure {grid-area: picture;}
-
-/* Content style */
-.content {grid-area: content;}
-
-/* Footer style */
-.footer {grid-area: footer;}
-
-.header {grid-area: header;}
-
-.nav {grid-area: nav;}
 
 /* Rule to reduce space above header in home-page with iframe */
 h2 {margin-top: -15px;}

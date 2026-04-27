@@ -49,6 +49,7 @@ nav li {
   background-color: lightgoldenrodyellow; /*Golden buttons*/
   border: outset;
   border-color: goldenrod;
+  font-size: 24px;
 }
 nav a {text-decoration: none;}
 

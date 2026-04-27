@@ -78,6 +78,5 @@ nav a {text-decoration: none;}
 
 .nav {grid-area: nav;}
 
-.
 /* Rule to reduce space above header in home-page with iframe */
 h2 {margin-top: -15px;}

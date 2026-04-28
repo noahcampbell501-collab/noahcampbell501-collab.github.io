@@ -59,6 +59,7 @@ nav a {text-decoration: none;}
 /* Rule to reduce space above header in home-page with iframe */
 h2 {margin-top: -15px;}
 
+/* Phone version */
 @media screen and (max-width: 600px) {
   .comp {
     display: none;

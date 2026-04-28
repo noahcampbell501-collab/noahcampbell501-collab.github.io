@@ -1,14 +1,24 @@
-const askName = 4;
-console.log('Times name has been asked ' + askName);
+let askName = 0;
 
-if (askName < 1) {
-  console.log('Thrindel Yorgenfist.');
-} else if (askName < 2) {
-  console.log('...er, Tarben. Tarben the short.');
-} 
-	else if (askName < 3) {
-    console.log('tt-Terry? I guess?');
+
+function handleAskName() {
+  askName++; // increment the counter
+
+  let message = '';
+
+  if (askName === 0) {
+    message = 'Go ahead, I prepared for everything!';
+  } else if (askName === 1) {
+    message = 'Thrindel Yorgenfist.';
+  } else if (askName === 2) {
+    message = '...er, Tarben. Tarben the short.';
+  } else if (askName === 3) {
+    message = 'tt-Terry? I guess?';
+  } else {
+    message = 'This is Terry ' + (askName - 1) + ', alright? Now leave me alone!';
   }
-	else {
-  console.log('This is Terry ' + (askName - 1) + ', alright? Now leave me alone!');
+
+  // Display in HTML
+  document.getElementById("output").textContent =
+    message;
 }

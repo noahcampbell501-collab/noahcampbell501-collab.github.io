@@ -2,7 +2,6 @@ let askName = 0;
 
 
 function handleAskName() {
-  askName++; // increment the counter
 
   let message = '';
 
@@ -17,7 +16,9 @@ function handleAskName() {
   } else {
     message = 'This is Terry ' + (askName - 1) + ', alright? Now leave me alone!';
   }
-
+  
+  askName++; // increment the counter
+  
   // Display in HTML
   document.getElementById("output").textContent =
     message;

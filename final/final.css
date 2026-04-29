@@ -82,7 +82,7 @@ h2 {margin-top: -15px;}
   .comp {
     display: none;
   }
-  /* Getting rid of the clunky pixels
+  /* Getting rid of the smaller width */
   p {
     width: 90%;
     font-size: 30px;

@@ -43,6 +43,8 @@ p {
   width: 70%;
   font-size: 24px;
   font-weight: bold;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .conc p:last-child {

@@ -21,7 +21,7 @@ img {
 /* Header style */
 header, h1, h2 {
   margin: 0px;
-  background-color: #660033;
+  background-color: #760000;
   padding: 10px;
   text-align: center;
   font-family: Georgia, Times New Roman;
@@ -32,7 +32,7 @@ header, h1, h2 {
 /* Header Animation */
 @keyframes headAnimation {
   from {background-color: rgb(234, 216, 193);}
-  to {background-color: #660033;}
+  to {background-color: #760000;}
 }
 
 /* Paragraph style */

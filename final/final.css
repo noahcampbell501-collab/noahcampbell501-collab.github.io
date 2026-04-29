@@ -24,6 +24,7 @@ img {
 header, h1, h2 {
   margin: 0px;
   background-color: #760000;
+  color: goldenrod;
   padding: 10px;
   text-align: center;
   font-family: Georgia, Times New Roman;

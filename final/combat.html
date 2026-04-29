@@ -3,20 +3,17 @@
 <head>
 <meta charset="utf-8">
 <meta name="author" content="Noah Campbell">
+<!-- Viewport resets the page to a changable value, rather than simply running off of whatever default your device might have on it at any given moment. -->
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Combat</title>
 <link rel="stylesheet" href="final.css">
 <style>
-  img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-}
+<!--Rules affecting all tables-->
 table, th, td {
   border: 3px solid black;
   border-collapse: collapse;
 }
+<!--Rules affecting the table as a whole-->
 table {
   width: 60%;
   font-family: Garamond;
@@ -25,19 +22,23 @@ table {
   margin-left: auto; 
   margin-right: auto;
 }
+  <!--Changing the color of the table header to red so that it can match the header of the page-->
 th {
   background-color: #760000;
 }
+  <!--Giving the data cell some difference from the parchment-->
 td {
   background-color: lightgrey;
 }
 </style>
 </head>
-<body class="conc">
+  <!---->
+<body>
 <header>
     <h1>Running the Combat</h1>
     <div class="comp">When your party decides that peace sucks, and that these goblins won't decapitate themselves</div>
 </header>
+  <!--Consistent nav-->
     <nav>
     <ul>
       <li><a href="leading.html" >
@@ -52,10 +53,13 @@ td {
         Raging Violence</a></li>
     </ul>
   </nav>
+  <!--Figure and image used correctly with figcaption and alt-->
 <figure>
   <img src="images/combat.jpg" alt="Lightsaber Duel">
   <figcaption class="comp">POV: The fighter finally gets to do the one thing they're good at</figcaption>
 </figure>
+  <!--Consistent main with child selector-->
+<main class="conc">
 <p>
   Combat is arguably the most important part of Dungeons and Dragons. It has the most rules dedicated to it, it was the only way people were able to level up until 2014, 
   and everyone expects it to happen when you play this game, regardless of party dynamics. 
@@ -65,6 +69,7 @@ td {
   I would even argue that it's a necessity. Otherwise, you get people trying to homebrew the living daylights out of combat, because they don't know how to play normally.
 </p>
 <br>
+  <!--Table for Balancing encounters-->
 <table>
   <tr>
     <th></th>
@@ -120,11 +125,14 @@ td {
   Despite this, combat remains one of the hardest things in the game for a Dungeon Master to <em>Master</em>. 
   Above is a chart I drew out that reflects my own experiences with balancing boss fights. Keep in mind that this does not take magic items into account, 2024 edition, multiple enemies, or player skill. 
 </p>
+  <!--Cite used-->
 <p>
   One last crucial bit of wisdom. In the words of Tommy West, <cite>"Don't pull your punches"</cite>. Your players can tell, and it ruins the game. Once you've picked the enemies, play them. 
   Don't buff them to the moon and back to make it a scary fight, but <strong>CERTAINLY</strong> don't take away the stakes of the story in your party's favor. 
   If they die, then they die. Let the blood of your players soak your hands. Believe me when I say that they will thank you for it.
 </p>
+</main>
+  <!--Consistent footer-->
 <footer>In case you need more resources than what is on this website, follow this <a href="https://www.dndbeyond.com" target="_blank">link!</a></footer>
 </body>
 </html>

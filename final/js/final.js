@@ -1,12 +1,16 @@
+// variable declared
+var askName
 let askName = 0;
-
+// function used
 function handleAskName() {
 
   let message = '';
 
-  // Use a loop to handle the intro phase
+  // Loop so that We can display a message as soon as the button is clicked without needing to do backflips to make the button show 0
   let i = 0;
+  // While loop used
   while (i < 2) {
+    // if used
     if (askName === i) {
       message = 'Go ahead, I prepared for everything!';
     }
@@ -29,6 +33,6 @@ function handleAskName() {
   }
 
   askName++;
-
+//DOM manipulator
   document.getElementById("output").textContent = message;
 }

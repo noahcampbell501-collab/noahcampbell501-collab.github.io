@@ -47,12 +47,12 @@ p {
   margin-right: auto;
   margin-left: auto;
 }
-
+/* psuedo selector */
 .conc p:last-child {
   border-style: solid;
   border-color: black;
 }
-
+/* Citation style */
 cite {
   font-style: italic;
 }
@@ -79,17 +79,18 @@ nav a {text-decoration: none;}
 /* Rule to reduce space above header in home-page with iframe */
 h2 {margin-top: -15px;}
 
-/* Phone version */
+/* Media accessibility */
 @media screen and (max-width: 800px) {
   /* Simple Class selector for elements that are unnecessary for a compact screen */
   .comp {
     display: none;
   }
-  /* Getting rid of the smaller width */
+  /* Making the text more easily readable */
   p {
     width: 90%;
     font-size: 30px;
   }
+  /* Enlarged images */
   img {
   display: block;
   margin-left: auto;

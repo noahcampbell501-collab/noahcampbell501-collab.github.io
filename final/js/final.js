@@ -7,7 +7,7 @@ function handleAskName() {
 
   let message = '';
 
-  // pointless while loop (requirement)
+  // pointless while loop
   let i = 0;
   while (i < 2) {
     i++;

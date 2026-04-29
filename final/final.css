@@ -1,6 +1,6 @@
 ﻿/* Rules for all web pages */
 
-/* Parchment paper to make it look like a book, red because that is the color D&D primarily uses, and padding
+/* Parchment paper to make it look like a book, red because that is the color D&D primarily uses */
 body {
   background-color: rgb(234, 216, 193); 
   padding: 10px;

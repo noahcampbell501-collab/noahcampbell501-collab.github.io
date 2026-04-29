@@ -1,5 +1,5 @@
 // variable declared
-var askName
+var timesAsked
 let askName = 0;
 // function used
 function handleAskName() {

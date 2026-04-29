@@ -1,4 +1,6 @@
 ﻿/* Rules for all web pages */
+
+/* Parchment paper to make it look like a book, red because that is the color D&D primarily uses, and padding
 body {
   background-color: rgb(234, 216, 193); 
   padding: 10px;
@@ -38,7 +40,7 @@ header, h1, h2 {
 /* Paragraph style */
 p {
   padding: 20px 10px 20px 10px;
-  margin: 80px 300px 80px 300px;
+  width: 70%;
   font-size: 24px;
   font-weight: bold;
 }
@@ -75,12 +77,14 @@ nav a {text-decoration: none;}
 h2 {margin-top: -15px;}
 
 /* Phone version */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
+  /* Simple Class selector for elements that are unnecessary for a compact screen */
   .comp {
     display: none;
   }
+  /* Getting rid of the clunky pixels
   p {
-    margin: 20px 10px 20px 10px;
+    width: 90%;
     font-size: 30px;
   }
   img {

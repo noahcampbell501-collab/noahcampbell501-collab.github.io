@@ -40,7 +40,9 @@ p {
   font-weight: bold;
 }
 .conc p:last-child {
-  border: 3px solid black;
+  border-style: solid;
+  border-width: 3px;
+  border-color: black;
 }
 cite {
   font-style: italic;

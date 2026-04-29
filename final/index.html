@@ -7,7 +7,10 @@
 <title>Home page</title>
 <link rel="stylesheet" href="final.css">
 <style>
-ul { display: inline-block; text-align: left; }
+ul {
+  padding-left: 0;
+  margin-left: 0;
+}
 .container {
   display: grid;
   grid-template-areas:
@@ -24,7 +27,6 @@ ul { display: inline-block; text-align: left; }
 }
 .container div.header {
   grid-area: header;
-  text-align: center;
 }
 .container div.menu {
   grid-area: menu;
